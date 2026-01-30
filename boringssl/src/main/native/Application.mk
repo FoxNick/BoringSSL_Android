@@ -2,8 +2,8 @@ APP_CFLAGS         := -Wall -Werror -Wno-unused-parameter
 APP_CFLAGS         := -fno-strict-aliasing -fno-common -fvisibility=hidden -DOPENSSL_SMALL
 APP_CFLAGS         += -Wno-builtin-macro-redefined -D__FILE__=__FILE_NAME__
 APP_LDFLAGS        := -Wl,--icf=all
-APP_CONLYFLAGS     := -std=c17
-APP_CPPFLAGS       := -std=c++23
+APP_CONLYFLAGS     := -std=c11
+APP_CPPFLAGS       := -std=c++17
 APP_STL            := c++_static
 APP_SHORT_COMMANDS := true
 
